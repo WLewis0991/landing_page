@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.welcome, header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+}
+ .top-img {
+    height: 300px;
+    width: 500px;
+ }
+
+ h2 {
+    text-align: center;
+ }
+
+ .info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+ }
+
+ img {
+    height: 200px;
+    width: 200px;
+    border-color: #3882F6;
+    border: 5px solid;
+    border-radius: 10px;
+ }
+
+ .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 300px;
+    padding: 0 500px 0 500px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    flex-wrap: wrap;
+
+ }
+ .han {
+    align-self: flex-end;
+ }
+
+ footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    height: 20px;
+ }
